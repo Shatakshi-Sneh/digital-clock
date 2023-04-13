@@ -1,0 +1,75 @@
+body
+{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/747/181/304/simple-simple-background-abstract-black-background-wallpaper-thumb.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+h2
+{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-align: center;
+    color: #d6b6b6;
+}
+
+.clock
+{
+    display: flex;
+}
+
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background: #d6b6b6;
+    opacity: .8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 1.5px 1.5px 3px rgb(57, 52, 59 , 0.3);
+}
+
+.clock .text
+{
+    height: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #c40202;
+    color: #efdbff;
+    font-weight: 400;
+    opacity: .9;
+}
+
+.clock #AMPM
+{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #db0902;
+    color: #efdbff;
+    letter-spacing: 2px;
+    font-size: 17px;
+
+}
